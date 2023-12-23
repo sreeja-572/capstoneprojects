@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="medicare.testassured.APIEndpoints">
+        <methods>
+          <include name="deleteProduct"/>
+          <include name="add_Product"/>
+          <include name="get_all_products"/>
+          <include name="update_ProductStatus"/>
+          <include name="get_all_users"/>
+          <include name="update_ProductName"/>
+        </methods>
+      </class> <!-- medicare.testassured.APIEndpoints -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
