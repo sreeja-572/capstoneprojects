@@ -1,0 +1,24 @@
+<suite name="test1" verbose="1">
+	
+	<listeners>
+		
+		<listener class-name="medicare.testpages.ItestListenerClass"></listener>
+	</listeners>
+	<test name="POMFramework">
+		<classes>
+			
+			
+			<class name="medicare.testpages.RegisterPageTest"></class>
+			<class name="medicare.testpages.LoginPageTest"></class>
+			<class name="medicare.testpages.AddProductToCartTest"></class>
+			<class name="medicare.testpages.PlaceOrderPageTest"></class>
+			
+			
+		</classes>
+		
+		
+	</test>
+	
+	
+	
+</suite>

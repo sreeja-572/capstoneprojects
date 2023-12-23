@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test1]">
+  <listeners>
+    <listener class-name="medicare.testpages.ItestListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="POMFramework(failed)">
+    <classes>
+      <class name="medicare.testpages.RegisterPageTest">
+        <methods>
+          <include name="openApplication"/>
+          <include name="getnameMethod"/>
+          <include name="generateReports"/>
+          <include name="RegisterUser"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="generateTestStatus"/>
+        </methods>
+      </class> <!-- medicare.testpages.RegisterPageTest -->
+      <class name="medicare.testpages.PlaceOrderPageTest">
+        <methods>
+          <include name="getnameMethod"/>
+          <include name="generateReports"/>
+          <include name="PlaceOrder"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="generateTestStatus"/>
+          <include name="openApplication"/>
+          <include name="cart"/>
+        </methods>
+      </class> <!-- medicare.testpages.PlaceOrderPageTest -->
+      <class name="medicare.testpages.AddProductToCartTest">
+        <methods>
+          <include name="getnameMethod"/>
+          <include name="cart"/>
+          <include name="generateReports"/>
+          <include name="openApplication"/>
+          <include name="InitalizeExtentReport"/>
+          <include name="generateTestStatus"/>
+          <include name="ViewProducts"/>
+          <include name="test_add_product_to_cart"/>
+        </methods>
+      </class> <!-- medicare.testpages.AddProductToCartTest -->
+    </classes>
+  </test> <!-- POMFramework(failed) -->
+</suite> <!-- Failed suite [test1] -->
